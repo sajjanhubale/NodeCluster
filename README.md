@@ -45,7 +45,7 @@ Create a new directory for this tutorial, and add a file called package.json wit
 ###### Run npm install from within your project directory, this will install Express. Now we can create a new file, app.js:
 ```
 // Include Express
-var express = require('express');
+const express = require('express');
 
 // Create a new Express application
 var app = express();
