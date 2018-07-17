@@ -30,15 +30,16 @@ A cluster module contains several events. Two common events related to the momen
 Let’s build a simple Express application to start with.
 
 Create a new directory for this tutorial, and add a file called package.json with the following code:
-
+```
 {
-    "name": "learning-express-cluster",
-    "version": "1.0.0",
-    "dependencies": {
-        "express": "^4"
-    }
+  "name": "nodecluster",
+  "version": "1.0.0",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.16.3"
+  }
 }
-
+```
 
 
 ###### Run npm install from within your project directory, this will install Express. Now we can create a new file, app.js:
