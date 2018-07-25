@@ -101,3 +101,6 @@ if (cluster.isMaster) {
     console.log('Your node is running on port 5000');
   });
 ```
+
+### Conclusion
+The cluster module offers to NodeJS the needed capabilities to use the whole power of a CPU. Although not seen in this post, the cluster module is complemented with the child process module that offers plenty of tools to work with processes: start, stop and pipe input/out, etc.
