@@ -1,4 +1,4 @@
-###Understanding the NodeJS cluster module
+### Understanding the NodeJS cluster module
 
 Node.js is becoming more and more popular as a server-side run-time environment, especially for high traffic websites, as statistics show. Also, the availability of several frameworks make it a good environment for rapid prototyping. Node.js has an event-driven architecture, leveraging a non-blocking I/O API that allows requests being processed asynchronously.
 
