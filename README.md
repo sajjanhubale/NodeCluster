@@ -1,3 +1,5 @@
+###Understanding the NodeJS cluster module
+
 Node.js is becoming more and more popular as a server-side run-time environment, especially for high traffic websites, as statistics show. Also, the availability of several frameworks make it a good environment for rapid prototyping. Node.js has an event-driven architecture, leveraging a non-blocking I/O API that allows requests being processed asynchronously.
 
 Each Node.js process runs in a single thread and by default it has a memory limit of 512MB on 32-bit systems and 1GB on 64-bit systems. Although the memory limit can be bumped to ~1GB on 32-bit systems and ~1.7GB on 64-bit systems, both memory and processing power can still become bottlenecks for various processes
